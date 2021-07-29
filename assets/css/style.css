@@ -3,27 +3,34 @@
     padding: 0;
     margin: 0;
 }
-
+/*Sets body background to #d9dcd6*/
 body {
     background-color: #d9dcd6;
 }
-
+/*Sets font 
+  Sets header background color to #2a607
+  Sets text color to #ffffff*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*Header text are in consecutive order
+  Font size is 48 pixels*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*Sets h1 color to #d9dcd6*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*Padding top 15 pixels
+  Margin to the right 20 pixels
+  Text is moved to the right
+  Sets font
+  Sets font size 20 pixels*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +38,33 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*Header is a unorganized list*/
 .header nav ul {
     list-style-type: none;
 }
-
+/*Header is a unorganized list
+  Header is in consecutive order
+  Margin to the left 25 pixels */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Text color #ffffff
+  no text decorations*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Font size of 16 pixels*/
 p {
     font-size: 16px;
 }
-
+/*Image height of 800 pixels
+  Image takes up 100%
+  Margin from the bottom 25 pixels
+  Image URL
+  Background size takes up the whole space
+  Background position is centered*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +73,34 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*Item floats to the left
+  Margin to the right 25 pixels*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*Item floats to the right
+  Margin to the left 25 pixels**/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*Item width is 75%
+  Item is in consecutive order
+  Margin to the left 20 pixels */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Margin to the right 20 pixels
+  Padding 20 pixels
+  Item is floats to the right
+  Width is 20%
+  Height is 100%
+  Font style change
+  background color to #2589bd
+  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +111,72 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Margin to the bottom 32 pixel
+  item color #ffffff*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Margin to the bottom 32 pixel
+  item color #ffffff*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Margin to the bottom 32 pixel
+  item color #ffffff*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Margin to the bottom 10 pixel
+  Text align in the center*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Margin to the bottom 10 pixel
+  Text align in the center*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Margin to the bottom 10 pixel
+  Text align in the center*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*item is in block format
+  margin is 10 pixels auto
+  max width 150 pixel*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*item is in block format
+  margin is 10 pixels auto
+  max width 150 pixel*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*item is in block format
+  margin is 10 pixels auto
+  max width 150 pixel*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Margin to the bottom 20 pixel
+  padding is 50 pixel
+  height of 300 pixel
+  font style change
+  background color #0072bb
+  Text color #ffffff*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +185,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Margin to the bottom 20 pixel
+  padding is 50 pixel
+  height of 300 pixel
+  font style change
+  background color #0072bb
+  Text color #ffffff*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +199,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Margin to the bottom 20 pixel
+  padding is 50 pixel
+  height of 300 pixel
+  font style change
+  background color #0072bb
+  Text color #ffffff*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +213,46 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Sets image height*/
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/*Sets image height*/
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/*Sets image height*/
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*Margin from bottom 20 pixels
+  font size 36 pixel*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Margin from bottom 20 pixels
+  font size 36 pixel*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Margin from bottom 20 pixels
+  font size 36 pixel*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Footer padding is 30 pixels
+  Font style change
+  Text align in the center*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*Font size 20 pixels*/
 .footer h2 {
     font-size: 20px;
 }
